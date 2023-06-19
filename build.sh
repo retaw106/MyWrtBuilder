@@ -44,7 +44,7 @@ PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 # qBittorrent 下载器
 PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
 # Aria2 下载器
-# PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
 # FTP 服务器
 # PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
 
@@ -74,7 +74,7 @@ PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall
 PACKAGES="$PACKAGES luci-i18n-wrtbwmon-zh-cn"
 
 # 一些自己需要的内核组件
-PACKAGES="$PACKAGES kmod-usb-printer kmod-lp"
+# PACKAGES="$PACKAGES kmod-usb-printer kmod-lp"
 
 # 一些其他可能有用的包
 
