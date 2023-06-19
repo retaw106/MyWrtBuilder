@@ -49,7 +49,7 @@ PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
 
 # Docker 组件
-PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn"
 
 # VPN 类
 
@@ -93,6 +93,6 @@ PACKAGES="$PACKAGES netdata"
 FILES="files"
 
 # 禁用 openssh-server 的 sshd 服务和 docker 的 dockerd 服务以防止冲突
-DISABLED_SERVICES="sshd dockerd"
+DISABLED_SERVICES="sshd"
 
 make image PROFILE="$PROFILE" PACKAGES="$PACKAGES" FILES="$FILES" DISABLED_SERVICES="$DISABLED_SERVICES"
