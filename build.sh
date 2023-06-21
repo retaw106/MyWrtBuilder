@@ -25,7 +25,7 @@ PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
 # OpenClash 代理
 PACKAGES="$PACKAGES luci-app-openclash"
 # Passwall 代理
-PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 # nps 内网穿透
 PACKAGES="$PACKAGES luci-i18n-nps-zh-cn"
 
